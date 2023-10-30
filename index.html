@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <main>
+
+    <section class="card">
+
+      <div class="card-info">
+        <h1 class="heading">Get <span class="text-purple">insights</span> that help your business grow.</h1>
+
+        <p class="description">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+
+        <ul class="stats">
+          <li class="stat">
+            <h2 class="stat-heading">10k+</h2>
+            <p class="stat-info">companies</p>
+          </li>
+          <li class="stat">
+            <h2 class="stat-heading">314</h2>
+            <p class="stat-info">templates</p>
+          </li>
+          <li class="stat">
+            <h2 class="stat-heading">12M+</h2>
+            <p class="stat-info">queries</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card-img">
+        <picture>
+          <source class="desktop-img" media="(min-width:1201px)" srcset="./images/image-header-desktop.jpg">
+          <source class="mobile-img" media="(max-width:1200px)" srcset="./images/image-header-mobile.jpg">
+          <img class="desktop-img" src="./images/image-header-desktop.jpg" alt="People work in office">
+        </picture>
+      </div>
+    </section>
+
+    <div class="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/timavidon" target="_blank">Tim Avidon</a>.
+      </p>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
