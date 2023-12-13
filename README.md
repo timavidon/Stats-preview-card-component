@@ -10,7 +10,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
 
 ## Overview
 
@@ -26,14 +25,14 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/timavidon/frontend-mentor-c8)
-- Live Site URL: [Live Site](https://timavidon.github.io/frontend-mentor-c8/)
+- Solution URL: [Github](https://github.com/timavidon/Stats-preview-card-component)
+- Live Site URL: [Live Site](https://timavidon.github.io/Stats-preview-card-component/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS, Flexbox
+- CSS
 - Mobile-first workflow
 
