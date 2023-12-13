@@ -65,7 +65,7 @@ body {
 
 .container {
   display: grid;
-  max-width: 1200px;
+  max-width: 71.875rem;
   border-radius: 0.5rem;
   background-color: var(--dark-desaturated-blue);
   color: var(--main-slightly-transparent-white);
